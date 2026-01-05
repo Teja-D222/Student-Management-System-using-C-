@@ -43,6 +43,15 @@ UI	Razor Pages, HTML, CSS
 Data Handling	SQL Database
 Optional Data	Public REST APIs
 
+## API End Points Used
+API Purpose	Method	Endpoint	Description
+
+🎓 Majors Data	GET	/tesseract/data.jsonrecords	Fetches available majors and completions data by year, gender, and CIP code for University ID 137351.
+
+🧠 SAT Score Data	GET	/tesseract/data.jsonrecords	Retrieves SAT Math, Writing, and Reading percentiles for admissions to University ID 137351.
+
+📦 These APIs are hosted by Data USA and return JSON data in a records format. Used fetch() in JavaScript to dynamically populate dropdowns and data visualizations.
+
 ## Summary
 CourseDash is a practical demonstration of:
 
